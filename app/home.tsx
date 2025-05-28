@@ -5,8 +5,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function Index() {
   return (
     <SafeAreaView className="flex-1 items-center justify-center">
-      <Text className="text-primary-light text-5xl font-bold">Welcome!</Text>
-      <Link href="/home">Go home</Link>
+      <Text className="text-primary-light text-5xl font-bold">Home!</Text>
     </SafeAreaView>
   );
 }
